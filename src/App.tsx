@@ -4,7 +4,6 @@ import "./App.css";
 
 function App() {
 	const [isModalOpen, setIsModalOpen] = useState(false);
-	console.log(isModalOpen);
 	const onCloseHandler = () => {
 		setIsModalOpen(false);
 	};

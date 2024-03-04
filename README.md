@@ -1,6 +1,6 @@
 # modal-component-oc
 
-![Static Badge](https://img.shields.io/badge/npm_package-1.1.7-blue)
+![Static Badge](https://img.shields.io/badge/npm_package-1.1.9-blue)
 
 A modal in the same React.js component. It can be used as a modal, a toast or show a notification. It is **slightly customizable**.
 
