@@ -1,6 +1,6 @@
 # modal-component-oc
 
-![Static Badge](https://img.shields.io/badge/npm_package-1.1.9-blue)
+![Static Badge](https://img.shields.io/badge/npm_package-1.1.12-blue)
 
 A modal in the same React.js component. It can be used as a modal, a toast or show a notification. It is **slightly customizable**.
 
@@ -44,6 +44,7 @@ Below we have all the props that we can use with the `<Modal>` component. There 
 | **onClose**         | `Function`  | empty function | Callback trigger when the close zone has been clicked. The callback receives boolean variable as only parameter. Active this function will send a notification to close the Modal in the parent component. So that the parent component can know when the Modal closes and has suitable action. |
 | **isCloseBtn**      | `Boolean`   | `true`         | (Optional) By default we have a close button with icon (X) at the top right corner of modal. This is optional props, if we dont want to show this button, let call this props and set it to false.                                                                                              |
 | **backgroundColor** | `string`    | ``             | (Optional) Defines the background color of Modal. If we don't set this props, the modal background color will be white.                                                                                                                                                                         |
+| **textColor**       | `string`    | ``             | (Optional) Defines the text color of Modal. If we don't set this props, the modal text color will be black.                                                                                                                                                                                     |
 | **closeText**       | `string`    | ``             | (Optional) Defines the text that will be shown in the close button at the right top corlor of Modal.                                                                                                                                                                                            |
 | **children**        | `ReactNode` |                | Define the content that will be shown in the Modal.                                                                                                                                                                                                                                             |
 
